@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBEAF22419C9AB2F00EB72F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEAF22319C9AB2F00EB72F0 /* Foundation.framework */; };
+		BBEAF22619C9AB2F00EB72F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEAF22519C9AB2F00EB72F0 /* CoreGraphics.framework */; };
+		BBEAF22819C9AB2F00EB72F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEAF22719C9AB2F00EB72F0 /* UIKit.framework */; };
+		BBEAF22E19C9AB2F00EB72F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBEAF22C19C9AB2F00EB72F0 /* InfoPlist.strings */; };
+		BBEAF23019C9AB2F00EB72F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEAF22F19C9AB2F00EB72F0 /* main.m */; };
+		BBEAF23419C9AB2F00EB72F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEAF23319C9AB2F00EB72F0 /* AppDelegate.m */; };
+		BBEAF23719C9AB2F00EB72F0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEAF23519C9AB2F00EB72F0 /* Main_iPhone.storyboard */; };
+		BBEAF23A19C9AB2F00EB72F0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEAF23819C9AB2F00EB72F0 /* Main_iPad.storyboard */; };
+		BBEAF23D19C9AB2F00EB72F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEAF23C19C9AB2F00EB72F0 /* ViewController.m */; };
+		BBEAF23F19C9AB2F00EB72F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEAF23E19C9AB2F00EB72F0 /* Images.xcassets */; };
+		BBEAF24619C9AB2F00EB72F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEAF24519C9AB2F00EB72F0 /* XCTest.framework */; };
+		BBEAF24719C9AB2F00EB72F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEAF22319C9AB2F00EB72F0 /* Foundation.framework */; };
+		BBEAF24819C9AB2F00EB72F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEAF22719C9AB2F00EB72F0 /* UIKit.framework */; };
+		BBEAF25019C9AB2F00EB72F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBEAF24E19C9AB2F00EB72F0 /* InfoPlist.strings */; };
+		BBEAF25219C9AB2F00EB72F0 /* ArpMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEAF25119C9AB2F00EB72F0 /* ArpMacTests.m */; };
+		BBEAF25D19C9AB5900EB72F0 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEAF25C19C9AB5900EB72F0 /* Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBEAF24919C9AB2F00EB72F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEAF21819C9AB2F00EB72F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEAF21F19C9AB2F00EB72F0;
+			remoteInfo = ArpMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBEAF22019C9AB2F00EB72F0 /* ArpMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArpMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEAF22319C9AB2F00EB72F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBEAF22519C9AB2F00EB72F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBEAF22719C9AB2F00EB72F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBEAF22B19C9AB2F00EB72F0 /* ArpMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArpMac-Info.plist"; sourceTree = "<group>"; };
+		BBEAF22D19C9AB2F00EB72F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBEAF22F19C9AB2F00EB72F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBEAF23119C9AB2F00EB72F0 /* ArpMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArpMac-Prefix.pch"; sourceTree = "<group>"; };
+		BBEAF23219C9AB2F00EB72F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBEAF23319C9AB2F00EB72F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBEAF23619C9AB2F00EB72F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BBEAF23919C9AB2F00EB72F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BBEAF23B19C9AB2F00EB72F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBEAF23C19C9AB2F00EB72F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBEAF23E19C9AB2F00EB72F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBEAF24419C9AB2F00EB72F0 /* ArpMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArpMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEAF24519C9AB2F00EB72F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BBEAF24D19C9AB2F00EB72F0 /* ArpMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArpMacTests-Info.plist"; sourceTree = "<group>"; };
+		BBEAF24F19C9AB2F00EB72F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBEAF25119C9AB2F00EB72F0 /* ArpMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArpMacTests.m; sourceTree = "<group>"; };
+		BBEAF25B19C9AB5900EB72F0 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		BBEAF25C19C9AB5900EB72F0 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		BBEAF25F19C9B17700EB72F0 /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		BBEAF26019C9B17700EB72F0 /* if_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_types.h; sourceTree = "<group>"; };
+		BBEAF26119C9B17700EB72F0 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		BBEAF26219C9B1D900EB72F0 /* if_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBEAF21D19C9AB2F00EB72F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEAF22619C9AB2F00EB72F0 /* CoreGraphics.framework in Frameworks */,
+				BBEAF22819C9AB2F00EB72F0 /* UIKit.framework in Frameworks */,
+				BBEAF22419C9AB2F00EB72F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEAF24119C9AB2F00EB72F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEAF24619C9AB2F00EB72F0 /* XCTest.framework in Frameworks */,
+				BBEAF24819C9AB2F00EB72F0 /* UIKit.framework in Frameworks */,
+				BBEAF24719C9AB2F00EB72F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBEAF21719C9AB2F00EB72F0 = {
+			isa = PBXGroup;
+			children = (
+				BBEAF22919C9AB2F00EB72F0 /* ArpMac */,
+				BBEAF24B19C9AB2F00EB72F0 /* ArpMacTests */,
+				BBEAF22219C9AB2F00EB72F0 /* Frameworks */,
+				BBEAF22119C9AB2F00EB72F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBEAF22119C9AB2F00EB72F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAF22019C9AB2F00EB72F0 /* ArpMac.app */,
+				BBEAF24419C9AB2F00EB72F0 /* ArpMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBEAF22219C9AB2F00EB72F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAF22319C9AB2F00EB72F0 /* Foundation.framework */,
+				BBEAF22519C9AB2F00EB72F0 /* CoreGraphics.framework */,
+				BBEAF22719C9AB2F00EB72F0 /* UIKit.framework */,
+				BBEAF24519C9AB2F00EB72F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBEAF22919C9AB2F00EB72F0 /* ArpMac */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAF25E19C9B17700EB72F0 /* Network */,
+				BBEAF23219C9AB2F00EB72F0 /* AppDelegate.h */,
+				BBEAF23319C9AB2F00EB72F0 /* AppDelegate.m */,
+				BBEAF23519C9AB2F00EB72F0 /* Main_iPhone.storyboard */,
+				BBEAF23819C9AB2F00EB72F0 /* Main_iPad.storyboard */,
+				BBEAF23B19C9AB2F00EB72F0 /* ViewController.h */,
+				BBEAF23C19C9AB2F00EB72F0 /* ViewController.m */,
+				BBEAF23E19C9AB2F00EB72F0 /* Images.xcassets */,
+				BBEAF22A19C9AB2F00EB72F0 /* Supporting Files */,
+				BBEAF25B19C9AB5900EB72F0 /* Utils.h */,
+				BBEAF25C19C9AB5900EB72F0 /* Utils.m */,
+			);
+			path = ArpMac;
+			sourceTree = "<group>";
+		};
+		BBEAF22A19C9AB2F00EB72F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAF22B19C9AB2F00EB72F0 /* ArpMac-Info.plist */,
+				BBEAF22C19C9AB2F00EB72F0 /* InfoPlist.strings */,
+				BBEAF22F19C9AB2F00EB72F0 /* main.m */,
+				BBEAF23119C9AB2F00EB72F0 /* ArpMac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBEAF24B19C9AB2F00EB72F0 /* ArpMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAF25119C9AB2F00EB72F0 /* ArpMacTests.m */,
+				BBEAF24C19C9AB2F00EB72F0 /* Supporting Files */,
+			);
+			path = ArpMacTests;
+			sourceTree = "<group>";
+		};
+		BBEAF24C19C9AB2F00EB72F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAF24D19C9AB2F00EB72F0 /* ArpMacTests-Info.plist */,
+				BBEAF24E19C9AB2F00EB72F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBEAF25E19C9B17700EB72F0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BBEAF26219C9B1D900EB72F0 /* if_arp.h */,
+				BBEAF25F19C9B17700EB72F0 /* if_ether.h */,
+				BBEAF26019C9B17700EB72F0 /* if_types.h */,
+				BBEAF26119C9B17700EB72F0 /* route.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBEAF21F19C9AB2F00EB72F0 /* ArpMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEAF25519C9AB2F00EB72F0 /* Build configuration list for PBXNativeTarget "ArpMac" */;
+			buildPhases = (
+				BBEAF21C19C9AB2F00EB72F0 /* Sources */,
+				BBEAF21D19C9AB2F00EB72F0 /* Frameworks */,
+				BBEAF21E19C9AB2F00EB72F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArpMac;
+			productName = ArpMac;
+			productReference = BBEAF22019C9AB2F00EB72F0 /* ArpMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBEAF24319C9AB2F00EB72F0 /* ArpMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEAF25819C9AB2F00EB72F0 /* Build configuration list for PBXNativeTarget "ArpMacTests" */;
+			buildPhases = (
+				BBEAF24019C9AB2F00EB72F0 /* Sources */,
+				BBEAF24119C9AB2F00EB72F0 /* Frameworks */,
+				BBEAF24219C9AB2F00EB72F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEAF24A19C9AB2F00EB72F0 /* PBXTargetDependency */,
+			);
+			name = ArpMacTests;
+			productName = ArpMacTests;
+			productReference = BBEAF24419C9AB2F00EB72F0 /* ArpMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBEAF21819C9AB2F00EB72F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kapralos Software";
+				TargetAttributes = {
+					BBEAF24319C9AB2F00EB72F0 = {
+						TestTargetID = BBEAF21F19C9AB2F00EB72F0;
+					};
+				};
+			};
+			buildConfigurationList = BBEAF21B19C9AB2F00EB72F0 /* Build configuration list for PBXProject "ArpMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBEAF21719C9AB2F00EB72F0;
+			productRefGroup = BBEAF22119C9AB2F00EB72F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBEAF21F19C9AB2F00EB72F0 /* ArpMac */,
+				BBEAF24319C9AB2F00EB72F0 /* ArpMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBEAF21E19C9AB2F00EB72F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEAF23A19C9AB2F00EB72F0 /* Main_iPad.storyboard in Resources */,
+				BBEAF23F19C9AB2F00EB72F0 /* Images.xcassets in Resources */,
+				BBEAF23719C9AB2F00EB72F0 /* Main_iPhone.storyboard in Resources */,
+				BBEAF22E19C9AB2F00EB72F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEAF24219C9AB2F00EB72F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEAF25019C9AB2F00EB72F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBEAF21C19C9AB2F00EB72F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEAF23D19C9AB2F00EB72F0 /* ViewController.m in Sources */,
+				BBEAF23419C9AB2F00EB72F0 /* AppDelegate.m in Sources */,
+				BBEAF23019C9AB2F00EB72F0 /* main.m in Sources */,
+				BBEAF25D19C9AB5900EB72F0 /* Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEAF24019C9AB2F00EB72F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEAF25219C9AB2F00EB72F0 /* ArpMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBEAF24A19C9AB2F00EB72F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEAF21F19C9AB2F00EB72F0 /* ArpMac */;
+			targetProxy = BBEAF24919C9AB2F00EB72F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBEAF22C19C9AB2F00EB72F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEAF22D19C9AB2F00EB72F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBEAF23519C9AB2F00EB72F0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEAF23619C9AB2F00EB72F0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BBEAF23819C9AB2F00EB72F0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEAF23919C9AB2F00EB72F0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BBEAF24E19C9AB2F00EB72F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEAF24F19C9AB2F00EB72F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBEAF25319C9AB2F00EB72F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBEAF25419C9AB2F00EB72F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBEAF25619C9AB2F00EB72F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArpMac/ArpMac-Prefix.pch";
+				INFOPLIST_FILE = "ArpMac/ArpMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBEAF25719C9AB2F00EB72F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArpMac/ArpMac-Prefix.pch";
+				INFOPLIST_FILE = "ArpMac/ArpMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BBEAF25919C9AB2F00EB72F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArpMac.app/ArpMac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArpMac/ArpMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ArpMacTests/ArpMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BBEAF25A19C9AB2F00EB72F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArpMac.app/ArpMac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArpMac/ArpMac-Prefix.pch";
+				INFOPLIST_FILE = "ArpMacTests/ArpMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBEAF21B19C9AB2F00EB72F0 /* Build configuration list for PBXProject "ArpMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEAF25319C9AB2F00EB72F0 /* Debug */,
+				BBEAF25419C9AB2F00EB72F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEAF25519C9AB2F00EB72F0 /* Build configuration list for PBXNativeTarget "ArpMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEAF25619C9AB2F00EB72F0 /* Debug */,
+				BBEAF25719C9AB2F00EB72F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBEAF25819C9AB2F00EB72F0 /* Build configuration list for PBXNativeTarget "ArpMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEAF25919C9AB2F00EB72F0 /* Debug */,
+				BBEAF25A19C9AB2F00EB72F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBEAF21819C9AB2F00EB72F0 /* Project object */;
+}
