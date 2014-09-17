@@ -55,13 +55,22 @@
     mib[5] = RTF_LLINFO;
     
     if (sysctl(mib, sizeof(mib) / sizeof(mib[0]), NULL, &needed, NULL, 0) < 0)
-        NSLog(@"route-sysctl-estimate");
+    {
+        NSLog(@"error in route-sysctl-estimate");
+        return nil;
+    }
     
     if ((buf = (char*)malloc(needed)) == NULL)
-        NSLog(@"malloc");
+    {
+        NSLog(@"error in malloc");
+        return nil;
+    }
     
     if (sysctl(mib, sizeof(mib) / sizeof(mib[0]), buf, &needed, NULL, 0) < 0)
+    {
         NSLog(@"retrieval of routing table");
+        return nil;
+    }
     
     for (next = buf; next < buf + needed; next += rtm->rtm_msglen) {
         
