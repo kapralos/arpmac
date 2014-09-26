@@ -11,5 +11,6 @@
 @interface Utils : NSObject
 
 + (NSString*)ipToMac:(NSString*)ipAddress;
++ (NSString*)getDefaultGatewayIp;
 
 @end

@@ -13,6 +13,8 @@
 
 @property (weak) IBOutlet UITextField* ipAddressTextField;
 @property (weak) IBOutlet UILabel* macAddrLabel;
+@property (weak) IBOutlet UILabel* routerIpAddressLabel;
+@property (weak) IBOutlet UILabel* routerMacLabel;
 
 - (IBAction)findPressed:(id)sender;
 
@@ -24,6 +26,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.routerIpAddressLabel.text = [Utils getDefaultGatewayIp];
+    self.routerMacLabel.text = [Utils ipToMac:self.routerIpAddressLabel.text];
 }
 
 - (void)didReceiveMemoryWarning
